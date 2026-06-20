@@ -1,5 +1,3 @@
-#include <input/processors.dtsi>
-
 / {
     scroll_mapper: scroll_mapper {
         compatible = "zmk,input-processor-code-mapper";
