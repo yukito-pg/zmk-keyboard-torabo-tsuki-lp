@@ -42,7 +42,7 @@
             bindings = <
 &trans  &trans      &trans      &trans   &trans  &trans                  &trans             &trans              &trans        &trans             &trans                 &trans
 &trans  &trans      &kp N1      &kp N2   &kp N3  &trans                  &trans             &kp LS(LA(L))       &trans        &kp LC(LA(MINUS))  &kp LC(LA(LS(MINUS)))  &trans
-&trans  &kp DELETE  &kp N4      &kp N5   &kp N6  &trans                  &kp LC(LA(SPACE))  &trans  &kp LG(UP)  &trans        &kp LS(SEMI)       &trans                 &trans
+&trans  &kp DELETE  &kp N4      &kp N5   &kp N6  &trans                  &kp LC(LA(SPACE))  &trans              &kp LG(UP)    &trans             &kp LS(SEMI)           &trans
 &trans  &kp N0      &kp N7      &kp N8   &kp N9  &trans  &trans  &trans  &kp LS(MINUS)      &kp LG(LEFT)        &kp LG(DOWN)  &kp LG(RIGHT)      &kp RGUI               &trans
 &trans  &trans      &kp LC(F5)  &kp F12  &trans  &trans  &trans  &trans  &kp TAB            &trans              &trans        &trans             &trans                 &trans
             >;
