@@ -23,7 +23,7 @@
             bindings = <
 &trans  &trans         &trans    &trans    &trans            &trans                                       &trans     &trans  &trans  &trans    &trans     &trans
 &trans  &kp LS(EQUAL)  &kp W     &kp J     &kp V             &kp LANG2                                    &trans     &kp Y   &kp R   &kp P     &kp LANG1  &trans
-&trans  &kp MINUS      &kp O     &kp E     &kp I             &kp U                                        &kp N      &kp H   &kp T   &kp K     &kp Q      &trans
+&trans  &kp MINUS      &kp O     &kp E     &kp I             &kp U        &trans            &trans        &kp N      &kp H   &kp T   &kp K     &kp Q      &trans
 &trans  &kp A          &kp X     &kp C     &kp F             &kp L        &bt BT_SEL 0      &bt BT_SEL 1  &kp M      &kp B   &kp D   &kp G     &kp S      &trans
 &trans  &kp LSHFT      &kp LGUI  &kp LALT  &mt RCTRL DELETE  &lt 1 SPACE  &kp LGUI          &lt 3 TAB     &lt 2 RET  &trans  &trans  &kp RGUI  &kp Z      &trans
             >;
@@ -33,7 +33,7 @@
             bindings = <
 &trans  &trans     &trans        &trans         &trans        &trans                                         &trans           &trans       &trans     &trans     &trans           &trans
 &trans  &kp ESC    &kp LC(SEMI)  &kp LC(MINUS)  &kp LC(LEFT)  &kp LC(RIGHT)                                  &kp LC(LS(TAB))  &kp LC(TAB)  &kp LC(T)  &kp LC(W)  &kp PRINTSCREEN  &trans
-&trans  &trans     &kp LC(X)     &kp LC(V)      &kp LC(C)     &kp LC(A)                                      &mkp MB2         &mkp MB1     &kp UP     &mo 4      &trans           &trans
+&trans  &trans     &kp LC(X)     &kp LC(V)      &kp LC(C)     &kp LC(A)       &trans        &trans           &mkp MB2         &mkp MB1     &kp UP     &mo 4      &trans           &trans
 &trans  &kp LC(Z)  &kp LC(S)     &trans         &kp LC(F)     &kp LC(D)       &bt BT_SEL 2  &mkp MB3         &mkp MB3         &kp LEFT     &kp DOWN   &kp RIGHT  &mkp MB4         &trans
 &trans  &trans     &trans        &trans         &trans        &trans          &trans        &kp HOME         &kp END          &trans       &trans     &trans     &trans           &trans
             >;
@@ -43,7 +43,7 @@
             bindings = <
 &trans  &trans      &trans      &trans   &trans  &trans                  &trans             &trans              &trans        &trans             &trans                 &trans
 &trans  &trans      &kp N1      &kp N2   &kp N3  &trans                  &trans             &kp LS(LA(L))       &trans        &kp LC(LA(MINUS))  &kp LC(LA(LS(MINUS)))  &trans
-&trans  &kp DELETE  &kp N4      &kp N5   &kp N6  &trans                  &kp LC(LA(SPACE))  &trans              &kp LG(UP)    &trans             &kp LS(SEMI)           &trans
+&trans  &kp DELETE  &kp N4      &kp N5   &kp N6  &trans  &trans  &trans  &kp LC(LA(SPACE))  &trans              &kp LG(UP)    &trans             &kp LS(SEMI)           &trans
 &trans  &kp N0      &kp N7      &kp N8   &kp N9  &trans  &trans  &trans  &kp LS(MINUS)      &kp LG(LEFT)        &kp LG(DOWN)  &kp LG(RIGHT)      &kp RGUI               &trans
 &trans  &trans      &kp LC(F5)  &kp F12  &trans  &trans  &trans  &trans  &kp TAB            &trans              &trans        &trans             &trans                 &trans
             >;
@@ -53,7 +53,7 @@
             bindings = <
 &trans  &trans         &trans        &trans        &trans         &trans                        &trans        &trans         &trans         &trans      &trans        &trans
 &trans  &kp LS(N2)  &kp LS(RBKT)  &kp LS(NUHS)  &kp LS(COMMA)  &kp LS(DOT)                      &kp LS(N5)    &kp LS(N3)     &kp LS(N4)     &kp LS(N6)  &kp LS(LBKT)  &trans
-&trans  &kp LS(N1)     &kp RBKT      &kp NUHS      &kp INTL1   &kp INTL3                        &kp LBKT      &kp LS(MINUS)  &kp SEMI       &kp COLON   &kp LS(N2)    &trans
+&trans  &kp LS(N1)     &kp RBKT      &kp NUHS      &kp INTL1   &kp INTL3        &trans  &trans  &kp LBKT      &kp LS(MINUS)  &kp SEMI       &kp COLON   &kp LS(N2)    &trans
 &trans  &kp LS(SLASH)  &kp LS(N8)    &kp LS(N9)    &kp COMMA      &kp DOT       &trans  &trans  &kp LS(SEMI)  &kp MINUS      &kp LS(COLON)  &kp SLASH   &kp LS(N7)    &trans
 &trans  &trans         &trans        &trans        &trans         &trans        &trans  &trans  &trans        &trans         &trans         &trans      &trans        &trans
             >;
@@ -63,7 +63,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
