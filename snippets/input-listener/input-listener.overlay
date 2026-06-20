@@ -1,4 +1,20 @@
+
+/ {
+    scroll_mapper: scroll_mapper {
+        compatible = "zmk,input-processor-code-mapper";
+        #input-processor-cells = <0>;
+        type = <INPUT_EV_REL>;
+        map = <INPUT_REL_X INPUT_REL_HWHEEL>
+              <INPUT_REL_Y INPUT_REL_WHEEL>;
+    };
+};
+
 &pointing_listener {
     status = "okay";
     device = <&pointing_device>;
+
+    scroller {
+        layers = <4>;
+        input-processors = <&scroll_mapper>;
+    };
 };
