@@ -52,7 +52,7 @@
             bindings = <
 &trans  &trans         &trans        &trans        &trans         &trans                        &trans        &trans         &trans         &trans      &trans        &trans
 &trans  &kp LS(N2)  &kp LS(RBKT)  &kp LS(NUHS)  &kp LS(COMMA)  &kp LS(DOT)                      &kp LS(N5)    &kp LS(N3)     &kp LS(N4)     &kp LS(N6)  &kp LS(LBKT)  &trans
-&trans  &kp LS(N1)     &kp RBKT      &kp NUHS      &kp INTL1   &kp INTL3        &trans  &trans  &kp LBKT      &kp LS(MINUS)  &kp SEMI       &kp COLON   &kp LS(N2)    &trans
+&trans  &kp LS(N1)     &kp RBKT      &kp NUHS      &kp LS(INT1)   &kp LS(INT3)        &trans  &trans  &kp LBKT      &kp LS(MINUS)  &kp SEMI       &kp COLON   &kp LS(N2)    &trans
 &trans  &kp LS(SLASH)  &kp LS(N8)    &kp LS(N9)    &kp COMMA      &kp DOT       &trans  &trans  &kp LS(SEMI)  &kp MINUS      &kp LS(COLON)  &kp SLASH   &kp LS(N7)    &trans
 &trans  &trans         &trans        &trans        &trans         &trans        &trans  &trans  &trans        &trans         &trans         &trans      &trans        &trans
             >;
