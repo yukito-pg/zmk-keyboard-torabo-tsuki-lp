@@ -56,6 +56,15 @@
 &trans  &kp LS(SLASH)  &kp LS(N8)    &kp LS(N9)    &kp COMMA      &kp DOT       &trans  &trans  &kp LS(SEMI)  &kp MINUS      &kp LS(COLON)  &kp SLASH   &kp LS(N7)    &trans
 &trans  &trans         &trans        &trans        &trans         &trans        &trans  &trans  &trans        &trans         &trans         &trans      &trans        &trans
             >;
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
         };
     };
 };
