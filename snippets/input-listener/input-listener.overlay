@@ -1,11 +1,21 @@
 #include <input/processors.dtsi>
 
+/ {
+    zip_hwheel_kill: zip_hwheel_kill {
+        compatible = "zmk,input-processor-scaler";
+        #input-processor-cells = <2>;
+        type = <INPUT_EV_REL>;
+        codes = <INPUT_REL_HWHEEL>;
+        track-remainders;
+    };
+};
+
 &pointing_listener {
     status = "okay";
     device = <&pointing_device>;
 
     scroller {
         layers = <4>;
-        input-processors = <&zip_xy_to_scroll_mapper>;
+        input-processors = <&zip_xy_to_scroll_mapper>, <&zip_hwheel_kill 0 1>;
     };
 };
