@@ -8,6 +8,14 @@
         codes = <INPUT_REL_HWHEEL>;
         track-remainders;
     };
+
+    zip_scroll_slow: zip_scroll_slow {
+        compatible = "zmk,input-processor-scaler";
+        #input-processor-cells = <2>;
+        type = <INPUT_EV_REL>;
+        codes = <INPUT_REL_WHEEL>;
+        track-remainders;
+    };
 };
 
 &pointing_listener {
@@ -16,6 +24,6 @@
 
     scroller {
         layers = <4>;
-        input-processors = <&zip_xy_to_scroll_mapper>, <&zip_hwheel_kill 0 1>;
+        input-processors = <&zip_xy_to_scroll_mapper>, <&zip_hwheel_kill 0 1>, <&zip_scroll_slow 1 3>;
     };
 };

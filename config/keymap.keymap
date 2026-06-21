@@ -35,7 +35,7 @@
 &trans  &kp ESC    &kp LC(SEMI)  &kp LC(MINUS)  &kp LC(LEFT)  &kp LC(RIGHT)                                  &kp LC(LS(TAB))  &kp LC(TAB)  &kp LC(T)  &kp LC(W)  &kp PRINTSCREEN  &trans
 &trans  &trans     &kp LC(X)     &kp LC(V)      &kp LC(C)     &kp LC(A)       &trans        &trans           &mkp MB2         &mkp MB1     &kp UP     &mo 4      &trans           &trans
 &trans  &kp LC(Z)  &kp LC(S)     &trans         &kp LC(F)     &kp LC(D)       &bt BT_SEL 2  &mkp MB3         &mkp MB3         &kp LEFT     &kp DOWN   &kp RIGHT  &mkp MB4         &trans
-&trans  &trans     &trans        &trans         &trans        &trans          &trans        &kp HOME         &kp END          &trans       &trans     &trans     &trans           &trans
+&trans  &trans     &trans        &trans         &trans        &trans          &trans        &kp HOME         &kp END          &trans       &trans     &kp LC(Q)     &trans           &trans
             >;
         };
 
