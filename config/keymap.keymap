@@ -82,31 +82,31 @@
 
         layer_5 {
             bindings = <
-&trans  &trans     &trans     &trans        &trans    &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(O)  &kp LC(U)  &kp N4        &kp X     &kp C                   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &kp SPACE  &trans        &kp INT3  &kp N7    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(Z)  &kp LC(S)  &kp F         &kp B     &kp N6    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &kp LSHFT  &kp LS(LALT)  &kp E   &lt 7 N5  &lt 6 N2  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans        &trans    &trans                      &trans  &trans    &trans  &trans  &trans  &trans
+&trans  &kp LC(O)  &kp LC(U)  &kp N4        &kp X     &kp C                       &trans  &trans    &trans  &trans  &trans  &trans
+&trans  &trans     &kp SPACE  &trans        &kp INT3  &kp N7    &trans    &trans  &kp N   &mkp MB1  &trans  &trans  &trans  &trans
+&trans  &kp LC(Z)  &kp LC(S)  &kp F         &kp B     &kp N6    &trans    &trans  &trans  &trans    &trans  &trans  &trans  &trans
+&trans  &trans     &kp LSHFT  &kp LG(LALT)  &kp E     &lt 7 N5  &lt 6 N2  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
         };
 
         layer_6 {
             bindings = <
-&trans  &trans              &trans          &trans         &trans         &trans                           &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans              &trans          &kp LC(C)      &kp LC(V)      &trans                           &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LA(U)           &kp LC(LS(H))   &kp LC(LA(G))  &kp LC(LS(N))  &kp LC(MINUS)    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(LS(DELETE))  &trans          &trans         &trans         &kp LC(INT3)     &trans  &trans   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans              &trans          &trans         &trans         &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans              &trans          &trans         &trans         &trans                             &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans              &trans          &kp LC(C)      &kp LC(V)      &trans                             &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LA(U)           &kp LC(LS(H))   &kp LC(LA(G))  &kp LC(LS(N))  &kp LC(LG(MINUS))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(LS(DELETE))  &trans          &trans         &trans         &kp LC(INT3)       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans              &trans          &trans         &trans         &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         layer_7 {
             bindings = <
-&trans  &trans      &trans  &trans     &trans      &trans                           &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp N3      &kp N1  &kp LC(D)  &kp M       &kp N                            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans      &trans  &kp R      &kp SLASH   &kp LS(LALT)     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp DELETE  &kp F6  &trans     &kp LC(N0)  &kp LC(INT3)     &trans  &to 0  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans      &trans  &trans     &trans      &trans           &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans      &trans  &trans             &trans      &trans                        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N3      &kp N1  &kp LC(D)          &kp M       &kp N                         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans      &trans  &kp R              &kp SLASH   &kp LS(LALT)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp DELETE  &kp F6  &kp LG(LC(LS(P)))  &kp LC(N0)  &trans        &trans  &to 0   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans      &trans  &trans             &trans      &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
