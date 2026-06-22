@@ -6,6 +6,17 @@
 #include <input/processors.dtsi>
 
 / {
+    behaviors {
+        bspc_ctrl: bspc_ctrl {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <175>;
+            bindings = <&kp>, <&kp>;
+        };
+    };
+
     combos {
         compatible = "zmk,combos";
 
@@ -25,7 +36,7 @@
 &trans  &kp LS(EQUAL)  &kp W     &kp J     &kp V           &kp LANG2                                    &kp SLASH  &kp Y   &kp R   &kp P     &kp LANG1  &trans
 &trans  &kp MINUS      &kp O     &kp E     &kp I           &kp U        &trans            &trans        &kp N          &kp H   &kp T   &kp K     &kp Q      &trans
 &trans  &kp A          &kp X     &kp C     &kp F           &kp L        &bt BT_SEL 0      &bt BT_SEL 1  &kp M          &kp B   &kp D   &kp G     &kp S      &trans
-&trans  &kp LSHFT      &kp LGUI  &kp LALT  &mt RCTRL BSPC  &lt 1 SPACE  &kp LGUI          &lt 3 TAB     &lt 2 RET      &trans  &trans  &kp RGUI  &kp Z      &trans
+&trans  &kp LSHFT      &kp LGUI  &kp LALT  &bspc_ctrl RCTRL BSPC  &lt 1 SPACE  &kp LGUI          &lt 3 TAB     &lt 2 RET      &trans  &trans  &kp RGUI  &kp Z      &trans
             >;
         };
 
